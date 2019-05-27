@@ -39,7 +39,7 @@ app.post('/quizsubmissionai', function(req,res){
     if(stringSimilarity.compareTwoStrings(req.body.quiz_3,'a')){
        counter++;
        }
-    if(stringSimilarity.compareTwoStrings(req.body.quiz_4,'d')){
+    if(stringSimilarity.compareTwoStrings(req.body.quiz_4,'c')){
         counter++;
     }
     if(stringSimilarity.compareTwoStrings(req.body.quiz_5,'b')){
