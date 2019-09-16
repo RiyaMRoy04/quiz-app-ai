@@ -26,7 +26,7 @@ var time;
 var url;
 var counter=0;
 
-quizdb = cloudant.db.use('dataquiz');
+quizdb = cloudant.db.use('ai-quiz');
 
 
 app.post('/quizsubmissionai', function(req,res){
