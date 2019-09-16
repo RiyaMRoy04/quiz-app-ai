@@ -30,16 +30,16 @@ quizdb = cloudant.db.use('dataquiz');
 
 
 app.post('/quizsubmissionai', function(req,res){
-    if(stringSimilarity.compareTwoStrings(req.body.quiz_1,'a')){
+    if(stringSimilarity.compareTwoStrings(req.body.quiz_1,'d')){
        counter++;
        }
-    if(stringSimilarity.compareTwoStrings(req.body.quiz_2,'a')){
+    if(stringSimilarity.compareTwoStrings(req.body.quiz_2,'c')){
         counter++;
     }
-    if(stringSimilarity.compareTwoStrings(req.body.quiz_3,'a')){
+    if(stringSimilarity.compareTwoStrings(req.body.quiz_3,'b')){
        counter++;
        }
-    if(stringSimilarity.compareTwoStrings(req.body.quiz_4,'c')){
+    if(stringSimilarity.compareTwoStrings(req.body.quiz_4,'d')){
         counter++;
     }
     if(stringSimilarity.compareTwoStrings(req.body.quiz_5,'b')){
